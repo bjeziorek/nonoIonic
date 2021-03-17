@@ -1,0 +1,7 @@
+{
+  "name": "NonoIonic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}

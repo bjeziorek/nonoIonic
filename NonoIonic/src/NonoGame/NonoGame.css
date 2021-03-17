@@ -1,0 +1,142 @@
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+ /* margin: 20px;*/
+  background-color: aqua;
+}
+
+.aqua {
+  color: aqua;
+}
+
+.deeppink {
+  color: deeppink;
+}
+.game {
+  width: 395px;
+  height: 395px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.right {
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.tip-field {
+  color: black;
+  background-color: aqua;
+  border: 1px solid aqua;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.rotated {
+  position: relative;
+  transform: rotate(90deg);
+  left: -83px;
+  bottom: -62px;
+}
+.innerRotated {
+  transform: rotate(-90deg);
+}
+
+.field {
+  color: black;
+  background-color: deeppink;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+.field2 {
+  color: black;
+  background-color: deeppink;
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.goodClick {
+  background-color: black;
+}
+.goodClickRevealed {
+  background-color: rgb(66, 66, 66);
+}
+.badClick {
+  background-color: red;
+}
+.badClickRevealed {
+  background-color: rgb(255, 126, 126);
+}
+
+.badClick2 {
+  background-color: rgb(192,  107,  107);
+}
+.blue {
+  background-color: blue;
+}
+
+.blue-pink {
+  margin: 10px;
+  padding: 6px;
+  background-color: pink;
+  color: deeppink;
+  border-radius: 3px;
+  border: 1px solid deeppink;
+}
+.blue-pink:hover {
+  margin: 10px;
+  padding: 6px;
+  background-color: deeppink;
+  color: pink;
+  border-radius: 5px;
+  border: 1px solid pink;
+}
+
+.theme1.tip-field {
+  color: black;
+  background-color: aqua;
+  border: 1px solid aqua;
+}
+.theme1.field {
+  color: black;
+  background-color: deeppink;
+  border: 1px solid black;
+}
+
+.theme2.tip-field {
+  color: black;
+  background-color: rgb(43, 255, 0);
+  border: 1px solid rgb(43, 255, 0);
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+.theme2.field {
+  color: black;
+  background-color: rgb(255, 208, 0);
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  overflow: hidden;
+}
+.theme3 {
+}
+.theme4 {
+}
+.theme5 {
+}
